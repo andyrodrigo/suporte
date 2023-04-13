@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ValidacaoComponent } from './components/validacao/validacao.component';
@@ -19,6 +20,7 @@ import { SimulacaoComponent } from './components/simulacao/simulacao.component';
     ValidacaoComponent,
     SucessoComponent,
     SimulacaoComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
